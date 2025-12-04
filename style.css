@@ -1,0 +1,73 @@
+.my-image{
+    border: 5px solid rgb(67, 37, 237);
+    border-radius: 60%;
+}
+
+.lead{
+    color: rgb(75, 11, 237);
+    text-align: center;
+    font: 1em serif;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+h1{
+    color: blueviolet;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.btn-primary{
+    background-color: #33c08c;
+    border-color: rgb(15, 18, 17);
+}
+.gradient-background {
+  background: linear-gradient(300deg, #f051d0, #6ddddd, #f5b761);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+li{
+    color: #000;
+    
+    }
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.fs-4{
+     font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #DC143C;
+}
+.nav-pills .nav-link {
+  color: #F75270;             
+  font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal; 
+  transition: color 0.3s ease;
+}
+
+
+.nav-pills .nav-link:hover {
+  color: greenyellow;             
+  background-color: transparent;
+}
+
+
+.nav-pills .nav-link.active {
+  color:azure;               
+  background-color: rgb(82, 241, 79); 
+  font-weight: 600;
+}
