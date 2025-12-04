@@ -71,6 +71,10 @@ h1{
     grid-area: 3/2/4/3;
     background-color: #FFF4A4;
 }
+
+.pr{
+    font-size: 0.83rem;
+}
 /* Base styles are inherited from your main CSS */
 
 /* Large screens (desktops) */
